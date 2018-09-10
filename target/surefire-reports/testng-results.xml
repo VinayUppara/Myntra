@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[<div "result">&quot;URL&quot; of Myntra (PASSED : 30s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">User logged in with &quot;kumarvinayu@gmail.com&quot; and &quot;Vinay@123&quot; (PASSED : 5s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Selects a category (PASSED : 19s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Search for a &quot;Tommy Hilfiger&quot; (PASSED : 1s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Results are displayed (PASSED : 0s)</div>]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="57315" started-at="2018-09-09T17:50:05Z" finished-at="2018-09-09T17:51:02Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:my.project.automation.wolfram_alpha.cucumberTest@32d2fa64]" name="runScenario" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Test" duration-ms="57315" started-at="2018-09-09T17:50:05Z" finished-at="2018-09-09T17:51:02Z">
+      <class name="my.project.automation.wolfram_alpha.cucumberTest">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:my.project.automation.wolfram_alpha.cucumberTest@32d2fa64]" name="setUpClass" is-config="true" duration-ms="286" started-at="2018-09-09T17:50:05Z" finished-at="2018-09-09T17:50:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:my.project.automation.wolfram_alpha.cucumberTest@32d2fa64]" name="runScenario" duration-ms="56924" started-at="2018-09-09T17:50:05Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2018-09-09T17:51:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Searching for Mens Top wear in Myntra"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Shopping a product in Myntra"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div "result">&quot;URL&quot; of Myntra (PASSED : 30s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">User logged in with &quot;kumarvinayu@gmail.com&quot; and &quot;Vinay@123&quot; (PASSED : 5s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Selects a category (PASSED : 19s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Search for a &quot;Tommy Hilfiger&quot; (PASSED : 1s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Results are displayed (PASSED : 0s)</div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:my.project.automation.wolfram_alpha.cucumberTest@32d2fa64]" name="tearDownClass" is-config="true" duration-ms="2" started-at="2018-09-09T17:51:02Z" finished-at="2018-09-09T17:51:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- my.project.automation.wolfram_alpha.cucumberTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

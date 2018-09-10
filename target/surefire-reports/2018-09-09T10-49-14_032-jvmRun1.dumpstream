@@ -1,0 +1,238 @@
+# Created at 2018-09-09T10:49:50.090
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+# Created at 2018-09-09T10:49:56.304
+Unexpected IOException: 9,1,my.project.automation.wolfram_alpha.cucumberTest,runScenario(my.project.automation.wolfram_alpha.cucumberTest),null,chrome not reachable\000A  (Session info: chrome=69.0.3497.81)\000A  (Driver info: chromedriver=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7)\002Cplatform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)\000ACommand duration or timeout: 4.10 seconds\000ABuild info: version: '3.4.0'\002C revision: 'unknown'\002C time: 'unknown'\000ASystem info: host: 'LIN35005936'\002C ip: '10.100.101.111'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_171'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities [{applicationCacheEnabled=false\002C rotatable=false\002C mobileEmulationEnabled=false\002C networkConnectionEnabled=false\002C chrome={chromedriverVersion=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7)\002C userDataDir=C:\005CUsers\005Cvuppara\005CAppData\005CLocal\005CTemp\005Cscoped_dir13872_1788}\002C takesHeapSnapshot=true\002C pageLoadStrategy=normal\002C databaseEnabled=false\002C handlesAlerts=true\002C hasTouchScreen=false\002C version=69.0.3497.81\002C platform=XP\002C browserConnectionEnabled=false\002C nativeEvents=true\002C acceptSslCerts=false\002C acceptInsecureCerts=false\002C locationContextEnabled=true\002C webStorageEnabled=true\002C browserName=chrome\002C takesScreenshot=true\002C javascriptEnabled=true\002C cssSelectorsEnabled=true\002C setWindowRect=true\002C unexpectedAlertBehaviour=}]\000ASession ID: 1e3dc66657c7a550e160b80b5edaa4c8\000A*** Element info: {Using=xpath\002C value=//*[@data-reactid='512']},null
+
+
+# Created at 2018-09-09T10:49:56.307
+Unexpected IOException with stream: 
+
+
+# Created at 2018-09-09T10:49:56.307
+Unexpected IOException with stream: [31mFailed scenarios:[0m
+
+
+# Created at 2018-09-09T10:49:56.307
+Unexpected IOException with stream: [31msrc/test/resources/myntra.feature:16 [0m
+
+# Created at 2018-09-09T10:49:56.307
+Unexpected IOException with stream: # Searching for Mens Top wear in Myntra
+
+
+# Created at 2018-09-09T10:49:56.307
+Unexpected IOException with stream: 
+
+
+# Created at 2018-09-09T10:49:56.307
+Unexpected IOException with stream: 1
+
+# Created at 2018-09-09T10:49:56.307
+Unexpected IOException with stream:  Scenarios (
+
+# Created at 2018-09-09T10:49:56.307
+Unexpected IOException with stream: [31m1 failed[0m
+
+# Created at 2018-09-09T10:49:56.307
+Unexpected IOException with stream: )
+
+
+# Created at 2018-09-09T10:49:56.322
+Unexpected IOException with stream: 5
+
+# Created at 2018-09-09T10:49:56.322
+Unexpected IOException with stream:  Steps (
+
+# Created at 2018-09-09T10:49:56.322
+Unexpected IOException with stream: [31m1 failed[0m
+
+# Created at 2018-09-09T10:49:56.322
+Unexpected IOException with stream: , 
+
+# Created at 2018-09-09T10:49:56.322
+Unexpected IOException with stream: [36m3 skipped[0m
+
+# Created at 2018-09-09T10:49:56.322
+Unexpected IOException with stream: , 
+
+# Created at 2018-09-09T10:49:56.322
+Unexpected IOException with stream: [32m1 passed[0m
+
+# Created at 2018-09-09T10:49:56.322
+Unexpected IOException with stream: )
+
+
+# Created at 2018-09-09T10:49:56.322
+Unexpected IOException with stream: 0m
+
+# Created at 2018-09-09T10:49:56.322
+Unexpected IOException with stream: 39.215s
+
+
+# Created at 2018-09-09T10:49:56.338
+Unexpected IOException with stream: 
+
+
+# Created at 2018-09-09T10:49:56.338
+Unexpected IOException with stream: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=69.0.3497.81)
+  (Driver info: chromedriver=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4.10 seconds
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'LIN35005936', ip: '10.100.101.111', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7), userDataDir=C:\Users\vuppara\AppData\Local\Temp\scoped_dir13872_1788}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=69.0.3497.81, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 1e3dc66657c7a550e160b80b5edaa4c8
+*** Element info: {Using=xpath, value=//*[@data-reactid='512']}
+
+# Created at 2018-09-09T10:49:56.338
+Unexpected IOException with stream: 
+
+
+# Created at 2018-09-09T10:49:56.338
+Unexpected IOException with stream: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+
+# Created at 2018-09-09T10:49:56.338
+Unexpected IOException with stream: 
+
+
+# Created at 2018-09-09T10:49:56.338
+Unexpected IOException with stream: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+
+# Created at 2018-09-09T10:49:56.338
+Unexpected IOException with stream: 
+
+
+# Created at 2018-09-09T10:49:56.338
+Unexpected IOException with stream: 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+
+# Created at 2018-09-09T10:49:56.338
+Unexpected IOException with stream: 
+
+
+# Created at 2018-09-09T10:49:56.338
+Unexpected IOException with stream: 	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+
+# Created at 2018-09-09T10:49:56.338
+Unexpected IOException with stream: 
+
+
+# Created at 2018-09-09T10:49:56.353
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+
+# Created at 2018-09-09T10:49:56.353
+Unexpected IOException with stream: 
+
+
+# Created at 2018-09-09T10:49:56.353
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+
+# Created at 2018-09-09T10:49:56.353
+Unexpected IOException with stream: 
+
+
+# Created at 2018-09-09T10:49:56.353
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:671)
+
+# Created at 2018-09-09T10:49:56.353
+Unexpected IOException with stream: 
+
+
+# Created at 2018-09-09T10:49:56.353
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:410)
+
+# Created at 2018-09-09T10:49:56.353
+Unexpected IOException with stream: 
+
+
+# Created at 2018-09-09T10:49:56.353
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:509)
+
+# Created at 2018-09-09T10:49:56.353
+Unexpected IOException with stream: 
+
+
+# Created at 2018-09-09T10:49:56.369
+Unexpected IOException with stream: 	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+
+# Created at 2018-09-09T10:49:56.369
+Unexpected IOException with stream: 
+
+
+# Created at 2018-09-09T10:49:56.369
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)
+
+# Created at 2018-09-09T10:49:56.369
+Unexpected IOException with stream: 
+
+
+# Created at 2018-09-09T10:49:56.369
+Unexpected IOException with stream: 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+
+# Created at 2018-09-09T10:49:56.369
+Unexpected IOException with stream: 
+
+
+# Created at 2018-09-09T10:49:56.369
+Unexpected IOException with stream: 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+
+# Created at 2018-09-09T10:49:56.369
+Unexpected IOException with stream: 
+
+
+# Created at 2018-09-09T10:49:56.369
+Unexpected IOException with stream: 	at com.sun.proxy.$Proxy13.click(Unknown Source)
+
+# Created at 2018-09-09T10:49:56.369
+Unexpected IOException with stream: 
+
+
+# Created at 2018-09-09T10:49:56.369
+Unexpected IOException with stream: 	at my.project.automation.wolfram_alpha.BaseMethods.click(BaseMethods.java:20)
+
+# Created at 2018-09-09T10:49:56.385
+Unexpected IOException with stream: 
+
+
+# Created at 2018-09-09T10:49:56.385
+Unexpected IOException with stream: 	at pages.LoginAndSignup.clickLogin(LoginAndSignup.java:60)
+
+# Created at 2018-09-09T10:49:56.385
+Unexpected IOException with stream: 
+
+
+# Created at 2018-09-09T10:49:56.385
+Unexpected IOException with stream: 	at stepdef.connector.MyntraConnector.login(MyntraConnector.java:24)
+
+# Created at 2018-09-09T10:49:56.385
+Unexpected IOException with stream: 
+
+
+# Created at 2018-09-09T10:49:56.385
+Unexpected IOException with stream: 	at my.project.automation.wolfram_alpha.StepDefinition.loginToMyntra(StepDefinition.java:51)
+
+# Created at 2018-09-09T10:49:56.385
+Unexpected IOException with stream: 
+
+
+# Created at 2018-09-09T10:49:56.385
+Unexpected IOException with stream: 	at ?.User logged in with "kumarvinayu@gmail.com" and "Vinay@123"(src/test/resources/myntra.feature:7)
+
+# Created at 2018-09-09T10:49:56.385
+Unexpected IOException with stream: 
+
+
+# Created at 2018-09-09T10:49:56.385
+Unexpected IOException with stream: 
+
+
+# Created at 2018-09-09T10:49:56.585
+Unexpected IOException: 2,1,org.apache.maven.surefire.testng.TestNGXmlTestSuite,TestSuite,null,null,null
+
+
